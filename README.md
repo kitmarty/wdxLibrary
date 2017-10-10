@@ -1,7 +1,7 @@
 ![image](/wdxLibrary.png)
 
 ## Introduction
-wdxLibrary is a JavaScript library which allows to create Office Open XML Document (.docx) reports from ARIS Platform products. The main difference between the wdxLibrary and standard output engine is ability to customize wdxLibrary and get any Office Open XML Document formatting and features you need.
+wdxLibrary is a JavaScript library for generating Office Open XML Document (.docx) reports from ARIS Platform products. The main difference between the wdxLibrary and standard output engine is ability to customize wdxLibrary and get any Office Open XML Document formatting and features you need.
 
 wdxLibrary is designed for ARIS script developers who need more functions from output engine than standard ARIS Report provides.
 
