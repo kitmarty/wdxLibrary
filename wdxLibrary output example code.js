@@ -26,7 +26,7 @@ test.outLine();                                                      //outputs p
 test.outLine();                                                      //outputs paragraph without special settings
 test.outText("Run without special settings");                        //outputs run without special settings
 test.outLine();
-test.outText("Текст кириллицей");                                    //outputs cyrillic text
+test.outText("РўРµРєСЃС‚ РєРёСЂРёР»Р»РёС†РµР№");                                    //outputs cyrillic text
 test.outLine();
 test.outText("Italic",{RUN_ITALIC:true});                            //outputs italic
 test.outLine();
