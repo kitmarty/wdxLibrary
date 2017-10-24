@@ -25,64 +25,64 @@ var wdxCounter = {
 };
 
 var wdxConstants = {
-    FM_SCR_SUPERSCRIPT:             x2006.STVerticalAlignRun.SUPERSCRIPT,
-    FM_SCR_SUBSCRIPT:               x2006.STVerticalAlignRun.SUBSCRIPT,
-    FM_SCR_BASELINE:                x2006.STVerticalAlignRun.BASELINE,
+    SCR_SUPERSCRIPT:                x2006.STVerticalAlignRun.SUPERSCRIPT,
+    SCR_SUBSCRIPT:                  x2006.STVerticalAlignRun.SUBSCRIPT,
+    SCR_BASELINE:                   x2006.STVerticalAlignRun.BASELINE,
 
-    FM_ALIGN_LEFT:                  x2006.STJc.LEFT,
-    FM_ALIGN_RIGHT:                 x2006.STJc.RIGHT,
-    FM_ALIGN_JUSTIFY:               x2006.STJc.BOTH,
-    FM_ALIGN_CENTER:                x2006.STJc.CENTER,
+    ALIGN_LEFT:                     x2006.STJc.LEFT,
+    ALIGN_RIGHT:                    x2006.STJc.RIGHT,
+    ALIGN_JUSTIFY:                  x2006.STJc.BOTH,
+    ALIGN_CENTER:                   x2006.STJc.CENTER,
     
-    FM_V_ALIGN_AUTO:                x2006.STTextAlignment.AUTO,
-    FM_V_ALIGN_BASELINE:            x2006.STTextAlignment.BASELINE,
-    FM_V_ALIGN_BOTTOM:              x2006.STTextAlignment.BOTTOM,
-    FM_V_ALIGN_CENTER:              x2006.STTextAlignment.CENTER,
-    FM_V_ALIGN_TOP:                 x2006.STTextAlignment.TOP,
+    V_ALIGN_AUTO:                   x2006.STTextAlignment.AUTO,
+    V_ALIGN_BASELINE:               x2006.STTextAlignment.BASELINE,
+    V_ALIGN_BOTTOM:                 x2006.STTextAlignment.BOTTOM,
+    V_ALIGN_CENTER:                 x2006.STTextAlignment.CENTER,
+    V_ALIGN_TOP:                    x2006.STTextAlignment.TOP,
     
-    FM_TEXT_DIR_LR_TB:              x2006.STTextDirection.LR_TB,
-    FM_TEXT_DIR_TB_RL:              x2006.STTextDirection.TB_RL,
-    FM_TEXT_DIR_BT_LR:              x2006.STTextDirection.BT_LR,
-    FM_TEXT_DIR_LR_TB_V:            x2006.STTextDirection.LR_TB_V,
-    FM_TEXT_DIR_TB_RL_V:            x2006.STTextDirection.TB_RL_V,
-    FM_TEXT_DIR_TB_LR_V:            x2006.STTextDirection.TB_LR_V,
+    TEXT_DIR_LR_TB:                 x2006.STTextDirection.LR_TB,
+    TEXT_DIR_TB_RL:                 x2006.STTextDirection.TB_RL,
+    TEXT_DIR_BT_LR:                 x2006.STTextDirection.BT_LR,
+    TEXT_DIR_LR_TB_V:               x2006.STTextDirection.LR_TB_V,
+    TEXT_DIR_TB_RL_V:               x2006.STTextDirection.TB_RL_V,
+    TEXT_DIR_TB_LR_V:               x2006.STTextDirection.TB_LR_V,
     
-    FM_UL_DASH:                     x2006.STUnderline.DASH,
-    FM_UL_DASH_DOT_DOT_HEAVY:       x2006.STUnderline.DASH_DOT_DOT_HEAVY,
-    FM_UL_DASH_DOT_HEAVY:           x2006.STUnderline.DASH_DOT_HEAVY,
-    FM_UL_DASH_LONG:                x2006.STUnderline.DASH_LONG,
-    FM_UL_DASH_LONG_HEAVY:          x2006.STUnderline.DASH_LONG_HEAVY,
-    FM_UL_DASHED_HEAVY:             x2006.STUnderline.DASHED_HEAVY,
-    FM_UL_DOT_DASH:                 x2006.STUnderline.DOT_DASH,
-    FM_UL_DOT_DOT_DASH:             x2006.STUnderline.DOT_DOT_DASH,
-    FM_UL_DOTTED:                   x2006.STUnderline.DOTTED,
-    FM_UL_DOTTED_HEAVY:             x2006.STUnderline.DOTTED_HEAVY,
-    FM_UL_DOUBLE:                   x2006.STUnderline.DOUBLE,
-    FM_UL_NONE:                     x2006.STUnderline.NONE,
-    FM_UL_SINGLE:                   x2006.STUnderline.SINGLE,
-    FM_UL_THICK:                    x2006.STUnderline.THICK,
-    FM_UL_WAVE:                     x2006.STUnderline.WAVE,
-    FM_UL_WAVY_DOUBLE:              x2006.STUnderline.WAVY_DOUBLE,
-    FM_UL_WAVY_HEAVY:               x2006.STUnderline.WAVY_HEAVY,
-    FM_UL_WORDS:                    x2006.STUnderline.WORDS,
+    UL_DASH:                        x2006.STUnderline.DASH,
+    UL_DASH_DOT_DOT_HEAVY:          x2006.STUnderline.DASH_DOT_DOT_HEAVY,
+    UL_DASH_DOT_HEAVY:              x2006.STUnderline.DASH_DOT_HEAVY,
+    UL_DASH_LONG:                   x2006.STUnderline.DASH_LONG,
+    UL_DASH_LONG_HEAVY:             x2006.STUnderline.DASH_LONG_HEAVY,
+    UL_DASHED_HEAVY:                x2006.STUnderline.DASHED_HEAVY,
+    UL_DOT_DASH:                    x2006.STUnderline.DOT_DASH,
+    UL_DOT_DOT_DASH:                x2006.STUnderline.DOT_DOT_DASH,
+    UL_DOTTED:                      x2006.STUnderline.DOTTED,
+    UL_DOTTED_HEAVY:                x2006.STUnderline.DOTTED_HEAVY,
+    UL_DOUBLE:                      x2006.STUnderline.DOUBLE,
+    UL_NONE:                        x2006.STUnderline.NONE,
+    UL_SINGLE:                      x2006.STUnderline.SINGLE,
+    UL_THICK:                       x2006.STUnderline.THICK,
+    UL_WAVE:                        x2006.STUnderline.WAVE,
+    UL_WAVY_DOUBLE:                 x2006.STUnderline.WAVY_DOUBLE,
+    UL_WAVY_HEAVY:                  x2006.STUnderline.WAVY_HEAVY,
+    UL_WORDS:                       x2006.STUnderline.WORDS,
     
-    FM_HL_BLACK:                    x2006.STHighlightColor.BLACK,
-    FM_HL_BLUE:                     x2006.STHighlightColor.BLUE,
-    FM_HL_CYAN:                     x2006.STHighlightColor.CYAN,
-    FM_HL_GREEN:                    x2006.STHighlightColor.GREEN,
-    FM_HL_MAGENTA:                  x2006.STHighlightColor.MAGENTA,
-    FM_HL_RED:                      x2006.STHighlightColor.RED,
-    FM_HL_YELLOW:                   x2006.STHighlightColor.YELLOW,
-    FM_HL_WHITE:                    x2006.STHighlightColor.WHITE,
-    FM_HL_DARK_BLUE:                x2006.STHighlightColor.DARK_BLUE,
-    FM_HL_DARK_CYAN:                x2006.STHighlightColor.DARK_CYAN,
-    FM_HL_DARK_GREEN:               x2006.STHighlightColor.DARK_GREEN,
-    FM_HL_DARK_MAGENTA:             x2006.STHighlightColor.DARK_MAGENTA,
-    FM_HL_DARK_RED:                 x2006.STHighlightColor.DARK_RED,
-    FM_HL_DARK_YELLOW:              x2006.STHighlightColor.DARK_YELLOW,
-    FM_HL_DARK_GRAY:                x2006.STHighlightColor.DARK_GRAY,
-    FM_HL_LIGHT_GRAY:               x2006.STHighlightColor.LIGHT_GRAY,
-    FM_HL_NONE:                     x2006.STHighlightColor.NONE,
+    HL_BLACK:                       x2006.STHighlightColor.BLACK,
+    HL_BLUE:                        x2006.STHighlightColor.BLUE,
+    HL_CYAN:                        x2006.STHighlightColor.CYAN,
+    HL_GREEN:                       x2006.STHighlightColor.GREEN,
+    HL_MAGENTA:                     x2006.STHighlightColor.MAGENTA,
+    HL_RED:                         x2006.STHighlightColor.RED,
+    HL_YELLOW:                      x2006.STHighlightColor.YELLOW,
+    HL_WHITE:                       x2006.STHighlightColor.WHITE,
+    HL_DARK_BLUE:                   x2006.STHighlightColor.DARK_BLUE,
+    HL_DARK_CYAN:                   x2006.STHighlightColor.DARK_CYAN,
+    HL_DARK_GREEN:                  x2006.STHighlightColor.DARK_GREEN,
+    HL_DARK_MAGENTA:                x2006.STHighlightColor.DARK_MAGENTA,
+    HL_DARK_RED:                    x2006.STHighlightColor.DARK_RED,
+    HL_DARK_YELLOW:                 x2006.STHighlightColor.DARK_YELLOW,
+    HL_DARK_GRAY:                   x2006.STHighlightColor.DARK_GRAY,
+    HL_LIGHT_GRAY:                  x2006.STHighlightColor.LIGHT_GRAY,
+    HL_NONE:                        x2006.STHighlightColor.NONE,
     
     BREAK_COLUMN:                   x2006.STBrType.COLUMN,
     BREAK_PAGE:                     x2006.STBrType.PAGE,
@@ -93,9 +93,9 @@ var wdxConstants = {
     BREAK_NONE:                     x2006.STBrClear.NONE,
     BREAK_RIGHT:                    x2006.STBrClear.RIGHT,
 
-    FM_LN_SPACE_AUTO:               x2006.STLineSpacingRule.AUTO,
-    FM_LN_SPACE_EXACT:              x2006.STLineSpacingRule.EXACT,
-    FM_LN_SPACE_AT_LEAST:           x2006.STLineSpacingRule.AT_LEAST,
+    LN_SPACE_AUTO:                  x2006.STLineSpacingRule.AUTO,
+    LN_SPACE_EXACT:                 x2006.STLineSpacingRule.EXACT,
+    LN_SPACE_AT_LEAST:              x2006.STLineSpacingRule.AT_LEAST,
 
     NUMFMT_DECIMAL:                 x2006.STNumberFormat.DECIMAL,
     NUMFMT_UPPER_ROMAN:             x2006.STNumberFormat.UPPER_ROMAN,
@@ -104,9 +104,9 @@ var wdxConstants = {
     NUMFMT_LOWER_LETTER:            x2006.STNumberFormat.LOWER_LETTER,
     NUMFMT_BULLET:                  x2006.STNumberFormat.BULLET,
     
-    FM_MULTI_LEVEL_TYPE_SINGLE:     x2006.STMultiLevelType.SINGLE_LEVEL,
-    FM_MULTI_LEVEL_TYPE_MULTI:      x2006.STMultiLevelType.MULTILEVEL,
-    FM_MULTI_LEVEL_TYPE_HYBRID:     x2006.STMultiLevelType.HYBRID_MULTILEVEL,
+    MULTI_LEVEL_TYPE_SINGLE:        x2006.STMultiLevelType.SINGLE_LEVEL,
+    MULTI_LEVEL_TYPE_MULTI:         x2006.STMultiLevelType.MULTILEVEL,
+    MULTI_LEVEL_TYPE_HYBRID:        x2006.STMultiLevelType.HYBRID_MULTILEVEL,
     
     HDR_FTR_DEFAULT:                x2006.STHdrFtr.DEFAULT,
     HDR_FTR_EVEN:                   x2006.STHdrFtr.EVEN,
@@ -133,8 +133,8 @@ var wdxConstants = {
     TBL_VALIGN_CENTER:              x2006.STVerticalJc.CENTER,
     TBL_VALIGN_BOTH:                x2006.STVerticalJc.BOTH,
     
-    FM_TBLW_PCT:                    x2006.STTblWidth.PCT,
-    FM_TBLW_DXA:                    x2006.STTblWidth.DXA,
+    TBLW_PCT:                       x2006.STTblWidth.PCT,
+    TBLW_DXA:                       x2006.STTblWidth.DXA,
     
     FLD_PAGE:                       "PAGE",
     FLD_PAGES:                      "PAGES",
@@ -624,11 +624,11 @@ var wdxServFunctions = {
                     var p =  prop.isSetStrike() ? prop.getStrike() : prop.addNewStrike();
                     p.setVal(wdxSimpleStyle[key]);
                 break;
-                case "RUN_UNDERLINE"://wdxConstants.FM_UL_*
+                case "RUN_UNDERLINE"://wdxConstants.UL_*
                     var p = prop.isSetU() ? prop.getU() : prop.addNewU();
                     p.setVal(wdxSimpleStyle[key]);
                 break;
-                case "RUN_SCRIPT":  //wdxConstants.FM_SCR_*
+                case "RUN_SCRIPT":  //wdxConstants.SCR_*
                     var p = prop.isSetVertAlign() ? prop.getVertAlign() : prop.addNewVertAlign();
                     p.setVal(wdxSimpleStyle[key]);
                 break;
@@ -646,7 +646,7 @@ var wdxServFunctions = {
                     var p = prop.isSetBidi() ? prop.getBidi() : prop.addNewBidi(); 
                     p.setVal(wdxSimpleStyle[key]);
                 break;
-                case "PAR_CONT_SPACING"://wdxConstants.FM_LN_SPACE_*
+                case "PAR_CONT_SPACING"://wdxConstants.LN_SPACE_*
                     var p = prop.isSetContextualSpacing() ? prop.getContextualSpacing() : prop.addNewContextualSpacing();
                     p.setVal(wdxSimpleStyle[key]);
                 break;
@@ -674,7 +674,7 @@ var wdxServFunctions = {
                     var p = prop.isSetSpacing() ? prop.getSpacing() : prop.addNewSpacing();
                     p.setAfter(new java.math.BigInteger(String(wdxSimpleStyle[key])));
                 break;
-                case "PAR_SPACING_RULE"://wdxConstants.FM_LN_SPACE_*
+                case "PAR_SPACING_RULE"://wdxConstants.LN_SPACE_*
                     var p = prop.isSetSpacing() ? prop.getSpacing() : prop.addNewSpacing();
                     p.setLineRule(wdxSimpleStyle[key]);
                 break;
@@ -1362,9 +1362,9 @@ function wdxWord(){
         this.childs.push(t);
         return t;
     };
-    this.createStyle = function(name,basedOn,type){
+    this.createStyle = function(style){
         if (this.styles==null) this.createStyles();
-        var t = new wdxWordStyle(this.styles,name,basedOn,type);
+        var t = new wdxWordStyle(this.styles,style);
         this.styles.childs.push(t);
         return t;
     };
@@ -1391,7 +1391,7 @@ function wdxWord(){
     this.writeReport = function(filename){
         if (filename==null){
             filename = Context.getSelectedFile();
-            if (Context.getSelectedFormat==Constants.OUTDOC) filename = filename+"x";
+            if (Context.getSelectedFormat()==Constants.OutputDOC) filename = filename+"x";
         }
         if (this.footnotes!=null) wdxServFunctions.saveDoc(this.footnotes);
         if (this.styles!=null) wdxServFunctions.saveDoc(this.styles);
@@ -1497,10 +1497,10 @@ function wdxWord(){
         this.lastOut = oObj.createHyperlink(text,internalLink,externalLink,style);
         return this.lastOut;
     };
-    this.addBookmarkStart = function(){
+    this.addBookmarkStart = function(name,hidden){
         var oObj = this;
         oObj = findLastPartWithMethod(this.lastOut,"createStartBookmark");
-        return oObj.createStartBookmark();
+        return oObj.createStartBookmark(name,hidden);
     };
     this.addBookmarkEnd = function(){
         var oObj = this;
@@ -1588,7 +1588,7 @@ function wdxWordSection(parent,wdxSimpleStyle){
     this.createFooter = function(type){var t = new wdxWordFooter(this,type); this.footers.push(t); return t;};
     this.createParagraph = function(wdxSimpleStyle){var t = new wdxWordParagraph(this,wdxSimpleStyle); this.childs.push(t); return t;};
     this.getParagraphById = function(id){return this.childs[id];};
-    this.createStartBookmark = function(tID){var t = new wdxWordStartBookmark(this); this.childs.push(t); return t;};
+    this.createStartBookmark = function(name,hidden){var t = new wdxWordStartBookmark(this,name,hidden); this.childs.push(t); return t;};
     this.createEndBookmark = function(){var t = new wdxWordEndBookmark(this); this.childs.push(t); return t;};
     this.createHeading = function(text,wdxSimpleStyle){var t = new wdxWordHeading(this,text,wdxSimpleStyle); this.childs.push(t); return t;};
     this.createTOC = function(){var t = new wdxWordTOC(this); this.childs.push(t); return t;};
@@ -1672,7 +1672,7 @@ function wdxWordFootnoteRef(parent,wdxSimpleStyle,wdxSimpleStyleP,wdxSimpleStyle
     this.id = ++wdxCounter.FOOTNOTES;
     this.item = wdxServConstants.CT_RUN.Factory.newInstance();
     this.item.addNewFootnoteReference().setId(new java.math.BigInteger(String(this.id)));
-    this.setStyle({RUN_SCRIPT:wdxConstants.FM_SCR_SUPERSCRIPT});
+    this.setStyle({RUN_SCRIPT:wdxConstants.SCR_SUPERSCRIPT});
     if (wdxSimpleStyle!=null) this.setStyle(wdxSimpleStyle);
     var footnotes = wdxServFunctions.getTopPart(this,"footnotes");
     this.note = new wdxWordFootnote(footnotes,this.id,wdxSimpleStyleP,wdxSimpleStyleR);
@@ -1696,7 +1696,7 @@ function wdxWordFootnote(parent,id,wdxSimpleStyleP,wdxSimpleStyleR){
     this.childs = [];
     
     this.ref = this.createParagraph(wdxSimpleStyleP).createRun(null,wdxSimpleStyleR);
-    this.ref.setStyle({RUN_SCRIPT:wdxConstants.FM_SCR_SUPERSCRIPT});
+    this.ref.setStyle({RUN_SCRIPT:wdxConstants.SCR_SUPERSCRIPT});
     this.ref.item.addNewFootnoteRef();
 }
 
@@ -1708,7 +1708,7 @@ function wdxWordEndnoteRef(parent,wdxSimpleStyle,wdxSimpleStyleP,wdxSimpleStyleR
     this.id = ++wdxCounter.ENDNOTES;
     this.item = wdxServConstants.CT_RUN.Factory.newInstance();
     this.item.addNewEndnoteReference().setId(new java.math.BigInteger(String(this.id)));
-    this.setStyle({RUN_SCRIPT:wdxConstants.FM_SCR_SUPERSCRIPT});
+    this.setStyle({RUN_SCRIPT:wdxConstants.SCR_SUPERSCRIPT});
     if (wdxSimpleStyle!=null) this.setStyle(wdxSimpleStyle);
     var endnotes = wdxServFunctions.getTopPart(this,"endnotes");
     this.note = new wdxWordEndnote(endnotes,this.id,wdxSimpleStyleP,wdxSimpleStyleR);
@@ -1732,11 +1732,11 @@ function wdxWordEndnote(parent,id,wdxSimpleStyleP,wdxSimpleStyleR){
     this.childs = [];
     
     this.ref = this.createParagraph(wdxSimpleStyleP).createRun(null,wdxSimpleStyleR);
-    this.ref.setStyle({RUN_SCRIPT:wdxConstants.FM_SCR_SUPERSCRIPT});
+    this.ref.setStyle({RUN_SCRIPT:wdxConstants.SCR_SUPERSCRIPT});
     this.ref.item.addNewEndnoteRef();
 }
 
-//type - FM_HDR_FTR_*
+//type - HDR_FTR_*
 function wdxWordHeader(parent,type){
     this.collect = function(){
         for (var i=0;i<this.childs.length;i++)
@@ -1756,7 +1756,7 @@ function wdxWordHeader(parent,type){
     this.childs = [];
 }
 
-//type - FM_HDR_FTR_*
+//type - HDR_FTR_*
 function wdxWordFooter(parent,type){
     this.collect = function(){
         for (var i=0;i<this.childs.length;i++)
@@ -1960,7 +1960,7 @@ function wdxWordStyle(parent,wdxSimpleStyle){
     if (wdxSimpleStyle!=null) this.setStyle(wdxSimpleStyle);
 }
 
-function wdxWordStartBookmark(parent,hidden,name){
+function wdxWordStartBookmark(parent,name,hidden){
     this.parent = parent;
     this.item = x2006.CTBookmark.Factory.newInstance();
     this.id = ++wdxCounter.BOOKMARK;
@@ -1982,7 +1982,7 @@ function wdxWordHyperlink(parent,text,internalLink,externalLink,wdxSimpleStyle){
         for (var i=0;i<this.childs.length;i++)
             this.item.addNewR().set(this.childs[i].item);
     };
-    var standartLink = {RUN_UNDERLINE:wdxConstants.FM_UL_SINGLE,RUN_COLOR:"0000FF"};
+    var standartLink = {RUN_UNDERLINE:wdxConstants.UL_SINGLE,RUN_COLOR:"0000FF"};
     this.parent = parent;
     this.item = x2006.CTHyperlink.Factory.newInstance();
     if (internalLink!=null)
