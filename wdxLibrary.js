@@ -5,8 +5,8 @@
  */
 
 var x2006 = org.openxmlformats.schemas.wordprocessingml.x2006.main;
-var schemasMicrosoftComOfficeOffice = JavaImporter(Packages.schemasMicrosoftComOfficeOffice)
-var schemasMicrosoftComVml = JavaImporter(Packages.schemasMicrosoftComVml)
+var schemasMicrosoftComOfficeOffice = JavaImporter(Packages.schemasMicrosoftComOfficeOffice);
+var schemasMicrosoftComVml = JavaImporter(Packages.schemasMicrosoftComVml);
 
 var wdxCounter = {
     FOOTNOTES:          0,
