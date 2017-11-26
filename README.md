@@ -5,6 +5,8 @@ wdxLibrary is a JavaScript library for generating Office Open XML Document (.doc
 
 wdxLibrary is designed for ARIS script developers who need more functions from output engine than standard ARIS Report provides.
 
+Read https://github.com/kitmarty/wdxLibrary/wiki for more information.
+
 ## Functions
 wdxLibrary provides next document and text formatting:
 * Sections and their properties
@@ -62,3 +64,5 @@ Create new report. Import wdxLibrary.js from common files.
 **Important!** If you use ARIS 7.2 there is no script option to get DOCX output files. Nevertheless you will get DOCX output file even if you choose DOC output. In this case next report that has same output filename will always rewrite previous output file. There are two solutions: set names dynamically in code or change output filename in the start report dialog.
 
 See _wdxLibrary Example.arx_ to understand how to create reports using wdxLibrary.js.
+
+Read https://github.com/kitmarty/wdxLibrary/wiki for more information.
