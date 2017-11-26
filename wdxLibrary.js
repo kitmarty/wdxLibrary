@@ -33,20 +33,20 @@ var wdxConstants = {
     ALIGN_RIGHT:                    x2006.STJc.RIGHT,
     ALIGN_JUSTIFY:                  x2006.STJc.BOTH,
     ALIGN_CENTER:                   x2006.STJc.CENTER,
-    
+
     V_ALIGN_AUTO:                   x2006.STTextAlignment.AUTO,
     V_ALIGN_BASELINE:               x2006.STTextAlignment.BASELINE,
     V_ALIGN_BOTTOM:                 x2006.STTextAlignment.BOTTOM,
     V_ALIGN_CENTER:                 x2006.STTextAlignment.CENTER,
     V_ALIGN_TOP:                    x2006.STTextAlignment.TOP,
-    
+
     TEXT_DIR_LR_TB:                 x2006.STTextDirection.LR_TB,
     TEXT_DIR_TB_RL:                 x2006.STTextDirection.TB_RL,
     TEXT_DIR_BT_LR:                 x2006.STTextDirection.BT_LR,
     TEXT_DIR_LR_TB_V:               x2006.STTextDirection.LR_TB_V,
     TEXT_DIR_TB_RL_V:               x2006.STTextDirection.TB_RL_V,
     TEXT_DIR_TB_LR_V:               x2006.STTextDirection.TB_LR_V,
-    
+
     UL_DASH:                        x2006.STUnderline.DASH,
     UL_DASH_DOT_DOT_HEAVY:          x2006.STUnderline.DASH_DOT_DOT_HEAVY,
     UL_DASH_DOT_HEAVY:              x2006.STUnderline.DASH_DOT_HEAVY,
@@ -65,7 +65,7 @@ var wdxConstants = {
     UL_WAVY_DOUBLE:                 x2006.STUnderline.WAVY_DOUBLE,
     UL_WAVY_HEAVY:                  x2006.STUnderline.WAVY_HEAVY,
     UL_WORDS:                       x2006.STUnderline.WORDS,
-    
+
     HL_BLACK:                       x2006.STHighlightColor.BLACK,
     HL_BLUE:                        x2006.STHighlightColor.BLUE,
     HL_CYAN:                        x2006.STHighlightColor.CYAN,
@@ -83,11 +83,11 @@ var wdxConstants = {
     HL_DARK_GRAY:                   x2006.STHighlightColor.DARK_GRAY,
     HL_LIGHT_GRAY:                  x2006.STHighlightColor.LIGHT_GRAY,
     HL_NONE:                        x2006.STHighlightColor.NONE,
-    
+
     BREAK_COLUMN:                   x2006.STBrType.COLUMN,
     BREAK_PAGE:                     x2006.STBrType.PAGE,
     BREAK_TEXT_WRAPPING:            x2006.STBrType.TEXT_WRAPPING,
-    
+
     BREAK_ALL:                      x2006.STBrClear.ALL,
     BREAK_LEFT:                     x2006.STBrClear.LEFT,
     BREAK_NONE:                     x2006.STBrClear.NONE,
@@ -103,62 +103,62 @@ var wdxConstants = {
     NUMFMT_UPPER_LETTER:            x2006.STNumberFormat.UPPER_LETTER,
     NUMFMT_LOWER_LETTER:            x2006.STNumberFormat.LOWER_LETTER,
     NUMFMT_BULLET:                  x2006.STNumberFormat.BULLET,
-    
+
     MULTI_LEVEL_TYPE_SINGLE:        x2006.STMultiLevelType.SINGLE_LEVEL,
     MULTI_LEVEL_TYPE_MULTI:         x2006.STMultiLevelType.MULTILEVEL,
     MULTI_LEVEL_TYPE_HYBRID:        x2006.STMultiLevelType.HYBRID_MULTILEVEL,
-    
+
     HDR_FTR_DEFAULT:                x2006.STHdrFtr.DEFAULT,
     HDR_FTR_EVEN:                   x2006.STHdrFtr.EVEN,
     HDR_FTR_FIRST:                  x2006.STHdrFtr.FIRST,
-    
+
     SM_NEXT_PAGE:                   x2006.STSectionMark.NEXT_PAGE,
     SM_NEXT_COLUMN:                 x2006.STSectionMark.NEXT_COLUMN,
     SM_CONTINUOUS:                  x2006.STSectionMark.CONTINUOUS,
     SM_EVEN_PAGE:                   x2006.STSectionMark.EVEN_PAGE,
     SM_ODD_PAGE:                    x2006.STSectionMark.ODD_PAGE,
-    
+
     BORDER_SINGLE:                  x2006.STBorder.SINGLE,
     BORDER_THICK:                   x2006.STBorder.THICK,
     BORDER_DOUBLE:                  x2006.STBorder.DOUBLE,
     BORDER_DOTTED:                  x2006.STBorder.DOTTED,
     BORDER_DASHED:                  x2006.STBorder.DASHED,
     BORDER_DOT_DASH:                x2006.STBorder.DOT_DASH,
-    
+
     TBL_LAYOUT_AUTOFIT:             x2006.STTblLayoutType.AUTOFIT,
     TBL_LAYOUT_FIXED:               x2006.STTblLayoutType.FIXED,
-    
+
     TBL_VALIGN_TOP:                 x2006.STVerticalJc.TOP,
     TBL_VALIGN_BOTTOM:              x2006.STVerticalJc.BOTTOM,
     TBL_VALIGN_CENTER:              x2006.STVerticalJc.CENTER,
     TBL_VALIGN_BOTH:                x2006.STVerticalJc.BOTH,
-    
+
     TBLW_PCT:                       x2006.STTblWidth.PCT,
     TBLW_DXA:                       x2006.STTblWidth.DXA,
-    
+
     FLD_PAGE:                       "PAGE",
     FLD_PAGES:                      "PAGES",
     FLD_FILENAME:                   "FILENAME",
     FLD_DATE:                       "DATE",
     FLD_TIME:                       "TIME",
     FLD_SECTION:                    "SECTION",
-    FLD_SECTIONPAGES:               "SECTIONPAGES",              
-    
+    FLD_SECTIONPAGES:               "SECTIONPAGES",
+
     STYLE_TYPE_PAR:                 x2006.STStyleType.PARAGRAPH,
     STYLE_TYPE_CHAR:                x2006.STStyleType.CHARACTER,
     STYLE_TYPE_NUM:                 x2006.STStyleType.NUMBERING,
     STYLE_TYPE_TBL:                 x2006.STStyleType.TABLE,
-    
+
     PAGE_ORIENT_PORTRAIT:           x2006.STPageOrientation.PORTRAIT,
     PAGE_ORIENT_LANDSCAPE:          x2006.STPageOrientation.LANDSCAPE,
     PAGE_SIZE_A4:                   [11900,16840],
     PAGE_SIZE_A3:                   [16840,23800],
     PAGE_SIZE_DEFAULT:              [11900,16840],
-    
+
     FILE_TYPE_PNG:                  "png",
     FILE_TYPE_JPEG:                 "jpeg",
     FILE_TYPE_EMF:                  "emf",
-    
+
     FILE_TYPE_DOCX:                 "docx",
     FILE_TYPE_XLSX:                 "xlsx",
     FILE_TYPE_PPTX:                 "pptx"
@@ -177,14 +177,14 @@ var wdxServConstants = {
     CT_EMBED_XSLX:      "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
     CT_EMBED_PPTX:      "application/vnd.openxmlformats-officedocument.presentationml.presentation",
     CT_NUMBERING:       "application/vnd.openxmlformats-officedocument.wordprocessingml.numbering+xml",
-    
+
     PN_DOCUMENT:        org.apache.poi.openxml4j.opc.PackagingURIHelper.createPartName("/word/document.xml"),
     PN_SETTINGS:        org.apache.poi.openxml4j.opc.PackagingURIHelper.createPartName("/word/settings.xml"),
     PN_FOOTNOTES:       org.apache.poi.openxml4j.opc.PackagingURIHelper.createPartName("/word/footnotes.xml"),
     PN_ENDNOTES:        org.apache.poi.openxml4j.opc.PackagingURIHelper.createPartName("/word/endnotes.xml"),
     PN_STYLES:          org.apache.poi.openxml4j.opc.PackagingURIHelper.createPartName("/word/styles.xml"),
     PN_NUMBERING:       org.apache.poi.openxml4j.opc.PackagingURIHelper.createPartName("/word/numbering.xml"),
-    
+
     RELT_DOCUMENT:      "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
     RELT_SETTINGS:      "http://schemas.openxmlformats.org/officeDocument/2006/relationships/settings",
     RELT_FOOTNOTES:     "http://schemas.openxmlformats.org/officeDocument/2006/relationships/footnotes",
@@ -196,7 +196,7 @@ var wdxServConstants = {
     RELT_EMBED:         "http://schemas.openxmlformats.org/officeDocument/2006/relationships/package",
     RELT_NUMBERING:     "http://schemas.openxmlformats.org/officeDocument/2006/relationships/numbering",
     RELT_HYPERLINK:     "http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink",
-    
+
     QNAME_DOCUMENT:     new javax.xml.namespace.QName("http://schemas.openxmlformats.org/wordprocessingml/2006/main", "document"),
     QNAME_SETTINGS:     new javax.xml.namespace.QName("http://schemas.openxmlformats.org/wordprocessingml/2006/main", "settings"),
     QNAME_FOOTNOTES:    new javax.xml.namespace.QName("http://schemas.openxmlformats.org/wordprocessingml/2006/main", "footnotes"),
@@ -205,7 +205,7 @@ var wdxServConstants = {
     QNAME_FOOTER:       new javax.xml.namespace.QName("http://schemas.openxmlformats.org/wordprocessingml/2006/main", "ftr"),
     QNAME_HEADER:       new javax.xml.namespace.QName("http://schemas.openxmlformats.org/wordprocessingml/2006/main", "hdr"),
     QNAME_NUMBERING:    new javax.xml.namespace.QName("http://schemas.openxmlformats.org/wordprocessingml/2006/main", "numbering"),
-    
+
     TM_INTERNAL:        org.apache.poi.openxml4j.opc.TargetMode.INTERNAL,
     TM_EXTERNAL:        org.apache.poi.openxml4j.opc.TargetMode.EXTERNAL,
 
@@ -222,7 +222,7 @@ var wdxServConstants = {
     IT_IMAGE:           "image",
     IT_EMBED:           "embed",
     IT_NUMBERING:       "numbering",
-    
+
     DOC_DOCDOC:         x2006.DocumentDocument,
     DOC_DOCUMENT:       x2006.CTDocument1,
     DOC_SETTINGS:       x2006.CTSettings,
@@ -232,7 +232,7 @@ var wdxServConstants = {
     DOC_HEADER:         x2006.CTHdrFtr,
     DOC_FOOTER:         x2006.CTHdrFtr,
     DOC_NUMBERING:      x2006.CTNumbering,
-    
+
     CT_SECTION:         x2006.CTSectPr,
     CT_PARAGRAPH:       x2006.CTP,
     CT_RUN:             x2006.CTR,
@@ -254,7 +254,7 @@ var wdxServFunctions = {
         map.put("http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing","wp");
         map.put("http://schemas.openxmlformats.org/officeDocument/2006/math","m");
         map.put("http://schemas.openxmlformats.org/markup-compatibility/2006","ve");
-        
+
         xmlOptions.setSaveSuggestedPrefixes(map);
         return xmlOptions;
     },
@@ -288,18 +288,18 @@ var wdxServFunctions = {
         graphic.setColor(new java.awt.Color(mainColor));//blue
         graphic.setFont(new java.awt.Font("Serif",java.awt.Font.BOLD,48));
         graphic.drawString(String(letter),60,60);
-        
+
         graphic.setColor(new java.awt.Color(5066061));//grey
         graphic.drawLine(111,36,135,36);
         graphic.drawLine(111,45,135,45);
         graphic.drawLine(111,54,135,54);
         graphic.drawLine(111,27,135,27);
-        
+
         if (extension==null) extension="file";
         graphic.setColor(java.awt.Color.BLACK);//black
         graphic.setFont(new java.awt.Font("Serif",java.awt.Font.BOLD,24));
         graphic.drawString(String("."+extension),75,90);
-        
+
         if (filename!=null){
             graphic.setFont(new java.awt.Font("Serif",java.awt.Font.PLAIN,20));
             graphic.drawString(String(filename),5,120);
@@ -309,7 +309,7 @@ var wdxServFunctions = {
         bi.flush();
         graphic.dispose();
         os.close();
-        
+
         return os;
     },
     getOutputStream: function(){
@@ -366,7 +366,7 @@ var wdxServFunctions = {
         return [part,rel];
     },
     getHyperlinkId: function(mainPart,partName,contentType,relationType,contentBA){
-        
+
     },
     getItem: function(file,type,data,extension){
         switch (type){
@@ -501,6 +501,26 @@ var wdxServFunctions = {
                 case "numbering":   obj.createNumbering();break;
             }
         return obj[name];
+    },
+    getSectionPart: function(oObj){
+        if (oObj!=null){
+            //if (String(oObj.item.type)==String("T=CT_Section@http://schemas.openxmlformats.org/wordprocessingml/2006/main"))
+            if (oObj.item.type==null)
+                return oObj
+            else
+                return this.getSectionPart(oObj.parent)
+        }
+        return null
+    },
+    getPictureMaxPercent: function(oObj){
+        var tSection = this.getSectionPart(oObj.parent);
+        if (tSection==null)
+            return 100
+        var tPageHeight = tSection.item.getPgSz().getH()//-tSection.item.getPgMar().getLeft()-tSection.item.getPgMar().getRight();
+        var tPageWidth = tSection.item.getPgSz().getW()//-tSection.item.getPgMar().getTop()-tSection.item.getPgMar().getBottom();
+        var tHeightPercent = tPageHeight/oObj.height/20
+        var tWidthPercent = tPageWidth/oObj.width/20
+        return Math.min.apply(Math,[tHeightPercent,tWidthPercent])*100
     },
     setProp:function(item,wdxSimpleStyle){
         switch (String(item.type)){
@@ -643,7 +663,7 @@ var wdxServFunctions = {
                 break;
                 //------------------------------------------------------------------------------//
                 case "PAR_BIDI":
-                    var p = prop.isSetBidi() ? prop.getBidi() : prop.addNewBidi(); 
+                    var p = prop.isSetBidi() ? prop.getBidi() : prop.addNewBidi();
                     p.setVal(wdxSimpleStyle[key]);
                 break;
                 case "PAR_CONT_SPACING"://wdxConstants.LN_SPACE_*
@@ -651,11 +671,11 @@ var wdxServFunctions = {
                     p.setVal(wdxSimpleStyle[key]);
                 break;
                 case "PAR_IND_FIRST":
-                    var p = prop.isSetInd() ? prop.getInd() : prop.addNewInd(); 
+                    var p = prop.isSetInd() ? prop.getInd() : prop.addNewInd();
                     p.setFirstLine(new java.math.BigInteger(String(wdxSimpleStyle[key])));
                 break;
                 case "PAR_IND_LEFT":
-                    var p = prop.isSetInd() ? prop.getInd() : prop.addNewInd(); 
+                    var p = prop.isSetInd() ? prop.getInd() : prop.addNewInd();
                     p.setLeft(new java.math.BigInteger(String(wdxSimpleStyle[key])));
                 break;
                 case "PAR_IND_RIGHT":
@@ -935,6 +955,33 @@ var wdxServFunctions = {
                 case "SET_UPDATE":
                     var p = prop.isSetUpdateFields() ? prop.getUpdateFields() : prop.addNewUpdateFields()
                     p.setVal(wdxSimpleStyle[key]);
+                break;
+                case "PROP_CREATOR":
+                    prop.getPackageProperties().setCreatorProperty(String(wdxSimpleStyle[key]))
+                break;
+                case "PROP_TITLE":
+                    prop.getPackageProperties().setTitleProperty(String(wdxSimpleStyle[key]))
+                break;
+                case "PROP_CATEGORY":
+                    prop.getPackageProperties().setCategoryProperty(String(wdxSimpleStyle[key]))
+                break;
+                case "PROP_DESCRIPTION":
+                    prop.getPackageProperties().setDescriptionProperty(String(wdxSimpleStyle[key]))
+                break;
+                case "PROP_KEYWORDS":
+                    prop.getPackageProperties().setKeywordsProperty(String(wdxSimpleStyle[key]))
+                break;
+                case "PROP_LASTMODAUTHOR":
+                    prop.getPackageProperties().setLastModifiedByProperty(String(wdxSimpleStyle[key]))
+                break;
+                case "PROP_REVISION":
+                    prop.getPackageProperties().setRevisionProperty(String(wdxSimpleStyle[key]))
+                break;
+                case "PROP_VERSION":
+                    prop.getPackageProperties().setVersionProperty(String(wdxSimpleStyle[key]))
+                break;
+                case "PROP_SUBJECT":
+                    prop.getPackageProperties().setSubjectProperty(String(wdxSimpleStyle[key]))
                 break;
                 //------------------------------------------------------------------------------//
                 case "TBL_BORDERS":
@@ -1388,6 +1435,9 @@ function wdxWord(){
         if (this.settings==null) this.createSettings();
         this.setStyle(wdxSettings);
     };
+    this.setProperties = function(wdxProp){
+        wdxServFunctions.setProp(this.pack,wdxProp);
+    }
     this.writeReport = function(filename){
         if (filename==null){
             filename = Context.getSelectedFile();
@@ -1398,7 +1448,7 @@ function wdxWord(){
         if (this.endnotes!=null)  wdxServFunctions.saveDoc(this.endnotes);
         if (this.numbering!=null) wdxServFunctions.saveDoc(this.numbering);
         wdxServFunctions.saveDoc(this);
-        
+
         wdxServFunctions.savePart(this.item,wdxServConstants.QNAME_DOCUMENT);
         wdxServFunctions.savePart(this.settings,wdxServConstants.QNAME_SETTINGS);
         wdxServFunctions.savePart(this.styles,wdxServConstants.QNAME_STYLES);
@@ -1408,18 +1458,18 @@ function wdxWord(){
         this.pack.close();
         Context.addOutputFile(filename,this.os.toByteArray());
     };
-    
+
     this.os = wdxServFunctions.getOutputStream();
 
     this.pack = wdxServFunctions.getOutputFile(this.os);
-    this.pack.getPackageProperties().setCreatorProperty("Generated by wdxLibrary over OpenXML4J");
+    //this.pack.getPackageProperties().setCreatorProperty("Generated by wdxLibrary over OpenXML4J");
     this.item = wdxServFunctions.getItem(this.pack,wdxServConstants.IT_DOCUMENT);
 
     this.childs=[];//sections
     //variables for sequential output
     this.flClosePrevTag = false;
     this.lastOut = this;
-    
+
     function findLastPart(oObj){
         if (oObj.childs!=null)
             if (oObj.childs.length!=0)
@@ -1567,7 +1617,7 @@ function wdxWordSection(parent,wdxSimpleStyle){
                 switch (String(this.childs[i].item.type)){
                     case String("T=CT_Bookmark@http://schemas.openxmlformats.org/wordprocessingml/2006/main"): this.parent.item.doc.addNewBookmarkStart().set(this.childs[i].item); break;
                     case String("T=CT_MarkupRange@http://schemas.openxmlformats.org/wordprocessingml/2006/main"): this.parent.item.doc.addNewBookmarkEnd().set(this.childs[i].item); break;
-                    case String("T=CT_Tbl@http://schemas.openxmlformats.org/wordprocessingml/2006/main"): this.parent.item.doc.addNewTbl().set(this.childs[i].item); break; 
+                    case String("T=CT_Tbl@http://schemas.openxmlformats.org/wordprocessingml/2006/main"): this.parent.item.doc.addNewTbl().set(this.childs[i].item); break;
                     default: this.parent.item.doc.addNewP().set(this.childs[i].item); break;
                 }
         }
@@ -1593,10 +1643,11 @@ function wdxWordSection(parent,wdxSimpleStyle){
     this.createHeading = function(text,wdxSimpleStyle){var t = new wdxWordHeading(this,text,wdxSimpleStyle); this.childs.push(t); return t;};
     this.createTOC = function(){var t = new wdxWordTOC(this); this.childs.push(t); return t;};
     this.createTable = function(wdxSimpleStyle){var t = new wdxWordTable(this,wdxSimpleStyle); this.childs.push(t); return t;};
-    
+
     this.parent = parent;
     this.item = wdxServConstants.CT_SECTION.Factory.newInstance();
-    this.setStyle({PAGE_SIZE:wdxConstants.PAGE_SIZE_DEFAULT});
+    this.setStyle({PAGE_SIZE:wdxConstants.PAGE_SIZE_DEFAULT,PAGE_ORIENT:wdxConstants.PAGE_ORIENT_PORTRAIT});
+    this.setStyle({PAGE_MARGIN_LEFT:1700,PAGE_MARGIN_RIGHT:850,PAGE_MARGIN_TOP:1133,PAGE_MARGIN_BOTTOM:1133});
     if (wdxSimpleStyle!=null) this.setStyle(wdxSimpleStyle);
     this.last = true;
     this.childs = [];//paragraphs
@@ -1627,12 +1678,12 @@ function wdxWordParagraph(parent,wdxSimpleStyle){
     this.addStartBookmark = function(tID){var t = new wdxWordStartBookmark(this,tID); this.childs.push(t); return t;};
     this.addEndBookmark = function(){var t = new wdxWordEndBookmark(this); this.childs.push(t); return t;};
     this.createBreak = function(wdxWordSimpleBr,wdxWordSimpleR){var t = new wdxWordBreak(this,wdxWordSimpleBr,wdxWordSimpleR);this.childs.push(t);return t;};
-    
+
     this.getRunById = function(id){return this.childs[id];};
-    
+
     this.parent = parent;
     this.item = wdxServConstants.CT_PARAGRAPH.Factory.newInstance();
-    
+
     if (wdxSimpleStyle!=null) this.setStyle(wdxSimpleStyle);
     this.childs = [];//runs
 }
@@ -1685,7 +1736,7 @@ function wdxWordFootnote(parent,id,wdxSimpleStyleP,wdxSimpleStyleR){
     this.collect = function(){
         for (var i=0;i<this.childs.length;i++)
             switch (String(this.childs[i].item.type)){
-                case String("T=CT_Tbl@http://schemas.openxmlformats.org/wordprocessingml/2006/main"): this.item.addNewTbl().set(this.childs[i].item); break; 
+                case String("T=CT_Tbl@http://schemas.openxmlformats.org/wordprocessingml/2006/main"): this.item.addNewTbl().set(this.childs[i].item); break;
                 default: this.item.addNewP().set(this.childs[i].item); break;
             }
     };
@@ -1694,7 +1745,7 @@ function wdxWordFootnote(parent,id,wdxSimpleStyleP,wdxSimpleStyleR){
     this.item = x2006.CTFtnEdn.Factory.newInstance();
     this.item.setId(new java.math.BigInteger(String(this.id)));
     this.childs = [];
-    
+
     this.ref = this.createParagraph(wdxSimpleStyleP).createRun(null,wdxSimpleStyleR);
     this.ref.setStyle({RUN_SCRIPT:wdxConstants.SCR_SUPERSCRIPT});
     this.ref.item.addNewFootnoteRef();
@@ -1721,7 +1772,7 @@ function wdxWordEndnote(parent,id,wdxSimpleStyleP,wdxSimpleStyleR){
     this.collect = function(){
         for (var i=0;i<this.childs.length;i++)
             switch (String(this.childs[i].item.type)){
-                case String("T=CT_Tbl@http://schemas.openxmlformats.org/wordprocessingml/2006/main"): this.item.addNewTbl().set(this.childs[i].item); break; 
+                case String("T=CT_Tbl@http://schemas.openxmlformats.org/wordprocessingml/2006/main"): this.item.addNewTbl().set(this.childs[i].item); break;
                 default: this.item.addNewP().set(this.childs[i].item); break;
             }
     };
@@ -1730,7 +1781,7 @@ function wdxWordEndnote(parent,id,wdxSimpleStyleP,wdxSimpleStyleR){
     this.item = x2006.CTFtnEdn.Factory.newInstance();
     this.item.setId(new java.math.BigInteger(String(this.id)));
     this.childs = [];
-    
+
     this.ref = this.createParagraph(wdxSimpleStyleP).createRun(null,wdxSimpleStyleR);
     this.ref.setStyle({RUN_SCRIPT:wdxConstants.SCR_SUPERSCRIPT});
     this.ref.item.addNewEndnoteRef();
@@ -1741,7 +1792,7 @@ function wdxWordHeader(parent,type){
     this.collect = function(){
         for (var i=0;i<this.childs.length;i++)
             switch (String(this.childs[i].item.type)){
-                case String("T=CT_Tbl@http://schemas.openxmlformats.org/wordprocessingml/2006/main"): this.item.doc.addNewTbl().set(this.childs[i].item); break; 
+                case String("T=CT_Tbl@http://schemas.openxmlformats.org/wordprocessingml/2006/main"): this.item.doc.addNewTbl().set(this.childs[i].item); break;
                 default: this.item.doc.addNewP().set(this.childs[i].item); break;
             }
     };
@@ -1761,7 +1812,7 @@ function wdxWordFooter(parent,type){
     this.collect = function(){
         for (var i=0;i<this.childs.length;i++)
             switch (String(this.childs[i].item.type)){
-                case String("T=CT_Tbl@http://schemas.openxmlformats.org/wordprocessingml/2006/main"): this.item.doc.addNewTbl().set(this.childs[i].item); break; 
+                case String("T=CT_Tbl@http://schemas.openxmlformats.org/wordprocessingml/2006/main"): this.item.doc.addNewTbl().set(this.childs[i].item); break;
                 default: this.item.doc.addNewP().set(this.childs[i].item); break;
             }
     };
@@ -1778,14 +1829,7 @@ function wdxWordFooter(parent,type){
 
 function wdxWordPicture(parent,picData,extension,param1,param2){
     this.parent = parent;
-    if ((param1!=null)&&(param2!=null)){
-        this.width = param1;
-        this.height = param2;
-        this.percent = 100;
-    }else if (param1!=null){
-        this.percent = param1;
-    }else
-        this.percent = 100;
+
     var tData = null;
     if ((picData instanceof com.idsscheer.aris.server.bl.common.reportobjects.aris.logic.AModelPicture)||
         (picData instanceof com.aris.modeling.server.bl.common.reportobjects.aris.logic.AModelPicture)){
@@ -1820,6 +1864,17 @@ function wdxWordPicture(parent,picData,extension,param1,param2){
         tData.write(picData,0,picData.length);
         tData.close();
     }
+    if ((param1!=null)&&(param2!=null)){
+        this.width = param1;
+        this.height = param2;
+        this.percent = 100;
+    }else if (param1!=null){
+        if (param1==-1)
+            this.percent = wdxServFunctions.getPictureMaxPercent(this)
+        else
+            this.percent = param1;
+    }else
+        this.percent = 100;
     this.item = wdxServConstants.CT_RUN.Factory.newInstance();
     if (tData!=null){//insert picture
         this.itemPic = wdxServFunctions.getItem(wdxServFunctions.getTopPart(parent).item.file,wdxServConstants.IT_IMAGE,tData,extension);
@@ -1915,7 +1970,7 @@ function wdxWordEmbeddedObject(parent,objData,extension,filename,picData){
         imagedata.setTitle("");
         imagedata.setPict(this.itemPic.rel.getId());
         object.set(shapeDoc);
-        
+
         var object1 = this.item.addNewObject();
         var oleObjDoc = schemasMicrosoftComOfficeOffice.OLEObjectDocument.Factory.newInstance();
         var oleObj = oleObjDoc.addNewOLEObject();
